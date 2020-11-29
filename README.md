@@ -233,6 +233,12 @@ Gateway 서비스 실행 상태에서 8088과 8084로 각각 서비스 실행하
 
 ![10](https://user-images.githubusercontent.com/27837607/100531052-3f389a00-323d-11eb-9ec1-9458f5248c2b.JPG)
 
+## CQRS
+viewer를 별도로 구현하여 아래와 같이 view 실행 결과 확인 가능
+
+![13](https://user-images.githubusercontent.com/27837607/100533694-88dbb180-324a-11eb-9289-caea76913b8f.JPG)
+
+
 ## Poly Glot
 
 다른 서비스와 달리 Order 서비스는 h2db 가 아닌 hsqldb 를 사용
