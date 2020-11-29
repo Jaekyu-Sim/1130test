@@ -4,6 +4,10 @@
 
 MSAez를 사용한 event stroming결과
 
+![캡처](https://user-images.githubusercontent.com/27837607/100529978-e9112a00-322f-11eb-9310-0043d188375b.JPG)
+
+
+
 ## 헥사고날 아키텍쳐
 
 
