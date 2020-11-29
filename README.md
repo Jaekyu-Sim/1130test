@@ -128,7 +128,7 @@ REST API에서의 테스트를 통하여 구현내용이 정상적으로 동작�
 ![4](https://user-images.githubusercontent.com/27837607/100530623-8f146280-3237-11eb-8897-01198543797f.JPG)
 
 
-## Request 방식의 아키텍쳐
+## 동기식 호출(Request 방식의 아키텍쳐)
 
 Order 내에 아래와 같은 FeignClient 선언
 
@@ -182,9 +182,43 @@ Pay 서비스를 내린 후, Order 서비스만 돌아가고 있는 상태에서
 ![6](https://user-images.githubusercontent.com/27837607/100530816-3397a400-323a-11eb-93c0-ea824f9709c7.JPG)
 
 
-## 이벤트 드리븐 아키텍쳐
+## 비동기식 호출(Pub/Sub 방식의 아키텍쳐)
+
+Payment.java내에서 아래와 같이 서비스 Publish 구현
+
+```
+    @PostUpdate
+    public void onPostUpdate()
+    {
+        Paid paid = new Paid();
+        BeanUtils.copyProperties(this, paid);
+        paid.publishAfterCommit();
+
+    }
+```
+
+Delivery 서비스 내 Policy Handler에서 아래와 같이 Sub 구현
+
+```
+@StreamListener(KafkaProcessor.INPUT)
+    public void wheneverPaid_Ship(@Payload Paid paid){
+
+        if(paid.isMe()){
+            System.out.println("##### listener Ship : " + paid.toJson());
+            Delivery delivery = new Delivery();
+            delivery.setDeliveryStatus("ordered");
+            System.out.println("Delivery start");
+
+            deliveryRepository.save(delivery);
+        }
+
+    }
+```
+
 
 ## Gateway
+
+![7](https://user-images.githubusercontent.com/27837607/100531000-55922600-323c-11eb-9fae-61d5cdad63b3.JPG)
 
 ## Poly Glot
 
