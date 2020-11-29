@@ -277,6 +277,9 @@ kubectl describe deploy order 명령어로 확인시 아래와 같은 결과 확
 ![21](https://user-images.githubusercontent.com/27837607/100542889-489f2200-3290-11eb-868b-db337d434de5.JPG)
 
 ### Readness Test
+아무런 제약 주지 않은채 readness만 적용할 경우, availability 100% 확인.
+
+![22](https://user-images.githubusercontent.com/27837607/100545494-67f17b80-329f-11eb-8ba9-47acb8e14ae0.JPG)
 
 
 
