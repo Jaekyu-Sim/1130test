@@ -234,6 +234,11 @@ Gateway 서비스 실행 상태에서 8088과 8084로 각각 서비스 실행하
 
 ## Poly Glot
 
+다른 서비스와 달리 Order 서비스는 h2db 가 아닌 hsqldb 를 사용
+
+![11](https://user-images.githubusercontent.com/27837607/100531109-a0f90400-323d-11eb-9f21-3ee4e5e4e4d8.JPG)
+
+
 
 # 운영
 
