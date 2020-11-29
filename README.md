@@ -215,10 +215,22 @@ Delivery 서비스 내 Policy Handler에서 아래와 같이 Sub 구현
     }
 ```
 
+Pay 서비스와 Delivery 서비스가 둘 다 동시에 돌아가고 있을때 Pay 서비스 실행시 이상 없음.
+![8](https://user-images.githubusercontent.com/27837607/100531031-00a2df80-323d-11eb-8efb-e4818c3d5b55.JPG)
+
+Pay 서비스는 실행한 채, Delivery 서비스를 내린 후, Pay 서비스를 실행하여도 이상 없이 동작 가능.
+![9](https://user-images.githubusercontent.com/27837607/100531033-01d40c80-323d-11eb-9edf-5ecb01fb9abb.JPG)
+
 
 ## Gateway
 
 ![7](https://user-images.githubusercontent.com/27837607/100531000-55922600-323c-11eb-9fae-61d5cdad63b3.JPG)
+
+Gateway 서비스 실행 상태에서 8088과 8084로 각각 서비스 실행하여도 동일하게 Pay 서비스 실행됨 확인.
+
+![8](https://user-images.githubusercontent.com/27837607/100531031-00a2df80-323d-11eb-8efb-e4818c3d5b55.JPG)
+
+![10](https://user-images.githubusercontent.com/27837607/100531052-3f389a00-323d-11eb-9ec1-9458f5248c2b.JPG)
 
 ## Poly Glot
 
