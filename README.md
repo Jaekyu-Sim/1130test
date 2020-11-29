@@ -249,8 +249,21 @@ viewer를 별도로 구현하여 아래와 같이 view 실행 결과 확인 가�
 
 # 운영
 
+## CI / CD
+
+![14](https://user-images.githubusercontent.com/27837607/100535315-1b844c80-325b-11eb-9644-5e5f195ff4bd.JPG)
+
+![15](https://user-images.githubusercontent.com/27837607/100535316-1d4e1000-325b-11eb-88cd-e90c1ea654cf.JPG)
+
+![16](https://user-images.githubusercontent.com/27837607/100535317-1e7f3d00-325b-11eb-8e5e-65715d9cac34.JPG)
+
+![17](https://user-images.githubusercontent.com/27837607/100535318-20490080-325b-11eb-9a94-2654eeacd754.JPG)
+
+![18](https://user-images.githubusercontent.com/27837607/100535319-217a2d80-325b-11eb-9bf5-76209f772583.JPG)
+
+
+
 ## SLA 준수
 
-## CI / CD
 
 ## 유연성
