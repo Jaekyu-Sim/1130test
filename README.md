@@ -272,6 +272,8 @@ http -> tcpSocket변경, 8080 -> 8081로 변경 후, 서비스 확인 수행
 
 ![18](https://user-images.githubusercontent.com/27837607/100535319-217a2d80-325b-11eb-9bf5-76209f772583.JPG)
 
+kubectl describe deploy order 명령어로 확인시 아래와 같은 결과 확인.
+
 ![21](https://user-images.githubusercontent.com/27837607/100542889-489f2200-3290-11eb-868b-db337d434de5.JPG)
 
 ### Readness Test
