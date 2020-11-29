@@ -123,6 +123,10 @@ public class Order {
 ```
 REST API에서의 테스트를 통하여 구현내용이 정상적으로 동작함을 확인.
 
+![3](https://user-images.githubusercontent.com/27837607/100530571-0f869380-3237-11eb-9bd6-44a0778650d1.JPG)
+
+![4](https://user-images.githubusercontent.com/27837607/100530623-8f146280-3237-11eb-8897-01198543797f.JPG)
+
 
 ## Request 방식의 아키텍쳐
 
