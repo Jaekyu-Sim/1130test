@@ -264,6 +264,12 @@ viewer를 별도로 구현하여 아래와 같이 view 실행 결과 확인 가�
 
 
 ## SLA 준수
+### Liveness Test
+deployment.yml파일 변경 후, 서비스 확인 수행
+
+![20](https://user-images.githubusercontent.com/27837607/100538970-492abf00-3276-11eb-98d0-3fa144917779.JPG)
+
+![18](https://user-images.githubusercontent.com/27837607/100535319-217a2d80-325b-11eb-9bf5-76209f772583.JPG)
 
 
 ## 유연성
