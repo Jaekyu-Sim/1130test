@@ -9,6 +9,7 @@ MSAez를 사용한 event stroming결과
 
 
 ## 헥사고날 아키텍쳐
+![12](https://user-images.githubusercontent.com/27837607/100531177-42805580-323e-11eb-9b7f-8bf6c224fd40.JPG)
 
 
 # 구현
