@@ -274,6 +274,8 @@ http -> tcpSocket변경, 8080 -> 8081로 변경 후, 서비스 확인 수행
 
 ![21](https://user-images.githubusercontent.com/27837607/100542889-489f2200-3290-11eb-868b-db337d434de5.JPG)
 
+### Readness Test
+
 
 
 ## 유연성
