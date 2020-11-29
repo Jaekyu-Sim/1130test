@@ -2,7 +2,7 @@
 
 ## Event Storming 결과
 
-MSAez를 사용한 event stroming결과
+MSAez를 사용한 event stroming결과 아래와 같이 설계
 
 ![캡처](https://user-images.githubusercontent.com/27837607/100529978-e9112a00-322f-11eb-9310-0043d188375b.JPG)
 
