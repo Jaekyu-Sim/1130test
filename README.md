@@ -281,6 +281,11 @@ kubectl describe deploy order 명령어로 확인시 아래와 같은 결과 확
 
 ![22](https://user-images.githubusercontent.com/27837607/100545494-67f17b80-329f-11eb-8ba9-47acb8e14ae0.JPG)
 
+delivery 서비스의 readness를 주석처리 한 후, availability 확인.
+
+![23](https://user-images.githubusercontent.com/27837607/100545583-db938880-329f-11eb-871e-2c30a2cd7e8a.JPG)
+
+
 
 
 ## 유연성
