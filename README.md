@@ -295,4 +295,6 @@ Configmap 생성 후, 아래와 같이 적용 수행
 
 ![25](https://user-images.githubusercontent.com/27837607/100573202-9b252080-331a-11eb-85a1-b72499c26973.JPG)
 
+![26](https://user-images.githubusercontent.com/27837607/100573295-d1fb3680-331a-11eb-9ee5-597fcb252e1c.JPG)
+
 
