@@ -301,7 +301,8 @@ Configmap 생성 후, 아래와 같이 적용 수행
 ![27](https://user-images.githubusercontent.com/27837607/100579031-c44bae00-3326-11eb-844c-c9dbaa6b4e59.JPG)
 ![28](https://user-images.githubusercontent.com/27837607/100579035-c7469e80-3326-11eb-86a1-65967b5bd713.JPG)
 ![29](https://user-images.githubusercontent.com/27837607/100579041-c9a8f880-3326-11eb-9596-6732b7e6f8f0.JPG)
-![30](https://user-images.githubusercontent.com/27837607/100579049-cca3e900-3326-11eb-91c8-8e15c0b0ca79.JPG)
+
 ![31](https://user-images.githubusercontent.com/27837607/100579055-cf064300-3326-11eb-8bd7-776056a738ee.JPG)
 ![32](https://user-images.githubusercontent.com/27837607/100579062-d1689d00-3326-11eb-98ad-38334cc5b820.JPG)
+![33](https://user-images.githubusercontent.com/27837607/100579161-08d74980-3327-11eb-9d29-aefd4e27cbea.JPG)
 
