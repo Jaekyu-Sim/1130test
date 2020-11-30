@@ -288,4 +288,11 @@ delivery 서비스의 readness를 주석처리 한 후, availability 확인.
 
 
 
-## 유연성
+## Configmap
+Configmap 생성 후, 아래와 같이 적용 수행
+
+![24](https://user-images.githubusercontent.com/27837607/100573110-6d3fdc00-331a-11eb-8661-9b751360fdc1.JPG)
+
+![25](https://user-images.githubusercontent.com/27837607/100573202-9b252080-331a-11eb-85a1-b72499c26973.JPG)
+
+
